@@ -1,0 +1,50 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+h1 span{   /*estou sendo especifico em relação ao meu elemento/ recursividade*/
+    font-size: bold;
+}
+
+#hero{
+  width: 592px; /*largura do px*/
+  margin: auto;
+}
+#hero img {
+    margin-bottom: 0 auto 72px;/* shorthand agrupamento das 4 margens*/
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 49px;
+    line-height: 54px; 
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+p {
+    color: black;
+    font-size: 14px;   /*ajustando o espaçamento do texto*/
+    line-height: 28px;
+}
+
+
+span,a{
+    color: rgb(42, 122, 165)
+    
+}
+
+#footer a + a {   /*pegando um a que anterior a ele tem outro a que tenha 28 pixels*/
+    margin-left: 28px;
+}
+#line{
+    width: 568px; /*largura e altura*/
+    height: 0;
+    margin: auto 0 8px;
+    border: 1px solid #ECEEF2;
+}
+#balls-decoration {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
